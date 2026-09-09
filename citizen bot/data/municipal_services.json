@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "dataset": "municipal_services",
+    "data_type": "synthetic_demo",
+    "data_status": "Synthetic demonstration data",
+    "municipality": "Bengaluru Municipal Services (Demonstration)",
+    "version": "2.0-in",
+    "last_updated": "2026-09-01",
+    "source": "Bengaluru Municipal Corporation Citizen Services Dataset",
+    "disclaimer": "This is synthetic demonstration data for Indian municipal FAQ chatbot evaluation. It does not represent actual BBMP or Karnataka government policies or real municipal operations."
+  },
+  "records": [
+    {
+      "id": "SRV001",
+      "service_name": "Citizen Service Center (Single Window)",
+      "aliases": ["citizen service center", "suvidha kendra", "city hall desk", "municipal office", "office hours", "timings"],
+      "department": "Department of Citizen Facilitation, BBMP",
+      "office_location": "BBMP Headquarters, Ground Floor, N.R. Square, Sampige Road, Malleshwaram, Bengaluru – 560003",
+      "working_hours": "Monday to Saturday: 10:00 AM – 5:30 PM (Closed Sundays and public holidays)",
+      "phone": "080-2266-0000",
+      "toll_free_helpline": "1800-425-0555",
+      "email": "helpdesk@bbmp.gov.in",
+      "services_offered": [
+        "Certificate attestation and issuance",
+        "Property tax payment collection counters",
+        "Permit application receipt and verification",
+        "Public document searches and certified true copies",
+        "Senior citizen and divyangjan (disability) civic concession cards"
+      ],
+      "appointment_policy": "Walk-ins welcome with token system. Online appointment booking available on BBMP Citizens Portal to skip the queue."
+    },
+    {
+      "id": "SRV002",
+      "service_name": "Water Supply & Sewage Department",
+      "aliases": ["water supply", "water department", "sewage", "water leak", "water tanker", "drinking water"],
+      "department": "Bruhat Bengaluru Mahanagara Palike – Water Supply & Sewerage Board",
+      "office_location": "BWSSB (Bengaluru Water Supply & Sewerage Board), Cauvery Bhavan, 1st Floor, K.G. Road, Bengaluru – 560009",
+      "working_hours": "Administrative Office: Monday to Saturday 10:00 AM – 5:00 PM; Emergency Pipeline Hotline: 24 hours / 7 days",
+      "phone": "080-2294-4444",
+      "emergency_pipeline_hotline": "1916 (24/7 Leakage & Contamination Emergency – BWSSB Helpline)",
+      "email": "bwssb@karnataka.gov.in",
+      "services_offered": [
+        "New residential and commercial water connections",
+        "Sewage connection sanction and line clearance",
+        "Potable water tanker dispatch for shortage areas (₹800 per 5,000 litre tanker for residents)",
+        "Water meter testing, inspection, and replacement",
+        "Bi-monthly water billing and meter reading disputes"
+      ],
+      "complaint_turnaround": "Burst pipe / severe leakage response within 4 hours; low water pressure complaints within 48 hours."
+    },
+    {
+      "id": "SRV003",
+      "service_name": "Property Tax Assessment & Collection",
+      "aliases": ["property tax", "tax payment", "house tax", "property assessment", "tax rebate", "khata"],
+      "department": "BBMP Revenue Department – Property Tax Division",
+      "office_location": "BBMP Headquarters, Revenue Wing, 2nd Floor, N.R. Square, Malleshwaram, Bengaluru – 560003",
+      "working_hours": "Monday to Saturday: 10:00 AM – 5:00 PM (Cash counters close at 4:00 PM)",
+      "phone": "080-2266-0333",
+      "email": "propertytax@bbmp.gov.in",
+      "services_offered": [
+        "Property tax assessment and SAS calculation",
+        "Annual property tax payment and official receipt (Khata Certificate)",
+        "Property ownership transfer mutation records",
+        "Property tax assessment revision appeals",
+        "Issuance of No-Dues Property Tax Certificates"
+      ],
+      "payment_deadlines": "First installment due April 30; Second installment due October 31. Early bird rebate of 5% applied if full annual tax is paid before May 31.",
+      "penalty_rate": "2% simple interest per month on overdue balances after the due date as per BBMP rules."
+    },
+    {
+      "id": "SRV004",
+      "service_name": "Public Grievance & Citizen Complaint Redressal Cell",
+      "aliases": ["complaints", "grievance", "file a complaint", "pothole complaint", "streetlight complaint", "report an issue"],
+      "department": "BBMP Citizens' Grievance Redressal Cell",
+      "office_location": "BBMP Headquarters, Room 102, N.R. Square, Malleshwaram, Bengaluru – 560003",
+      "working_hours": "Monday to Saturday: 10:00 AM – 5:30 PM; Online BBMP Sahaaya portal & 24/7 IVRS",
+      "phone": "080-2266-0000",
+      "toll_free_grievance_number": "1800-425-0555 (BBMP Sahaaya Helpline)",
+      "email": "grievance@bbmp.gov.in",
+      "services_offered": [
+        "Lodging civic complaints (streetlights, potholes, garbage dumping, stray animal nuisances)",
+        "Tracking complaint status via unique Sahaaya Ticket Number",
+        "Escalation of unresolved civic complaints to Assistant Commissioner",
+        "Citizen satisfaction feedback collection via BBMP Sahaaya App"
+      ],
+      "resolution_sla": "Streetlight outages: 24 to 48 hours; Garbage clearance: within 24 hours; Pothole patching: 3 to 7 working days; Drainage blockage: 24 hours."
+    },
+    {
+      "id": "SRV005",
+      "service_name": "Vital Statistics: Birth & Death Registration Office",
+      "aliases": ["birth certificate", "death certificate", "vital statistics", "register birth", "register death"],
+      "department": "Department of Health & Family Welfare – Civil Registration, BBMP",
+      "office_location": "BBMP Health Department, 2nd Floor, N.R. Square, Bengaluru – 560003",
+      "working_hours": "Monday to Saturday: 10:00 AM – 4:00 PM",
+      "phone": "080-2266-0500",
+      "email": "vitalstats@bbmp.gov.in",
+      "services_offered": [
+        "Birth registration (must be filed within 21 days of birth, free of cost under RBD Act)",
+        "Death registration (must be filed within 21 days with medical cause certificate, free of cost)",
+        "Certified copy issuance (₹50 per duplicate certificate copy)",
+        "Name correction in birth certificates with judicial affidavit"
+      ],
+      "processing_time": "3 to 5 working days for certified copies; instant e-certificate downloads available on Karnataka Sakala portal."
+    },
+    {
+      "id": "SRV006",
+      "service_name": "Road Maintenance & Streetlight Division",
+      "aliases": ["road maintenance", "street lights", "potholes", "traffic lights", "broken road", "footpath"],
+      "department": "BBMP – Engineering Division (Roads & Infrastructure)",
+      "office_location": "BBMP Works Yard, Peenya Industrial Area, 2nd Stage, Bengaluru – 560058",
+      "working_hours": "Field operations: 24/7 emergency dispatch; Office: Monday to Saturday 9:00 AM – 5:30 PM",
+      "phone": "080-2222-4444",
+      "emergency_dispatch": "1916 (BBMP Pothole & Road Emergency Helpline)",
+      "email": "roads@bbmp.gov.in",
+      "services_offered": [
+        "Pothole repair and bitumen patching",
+        "LED streetlight replacement and repair",
+        "Stormwater drain (SWD) cleaning and desilting",
+        "Pedestrian footpath curb repair and ramp installation",
+        "Traffic road markings and civic signage maintenance"
+      ],
+      "reporting_channel": "Report via BBMP Sahaaya App (1916) or citizen mobile portal with GPS photo attachment."
+    }
+  ]
+}

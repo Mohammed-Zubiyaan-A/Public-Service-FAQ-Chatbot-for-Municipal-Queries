@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "dataset": "permits",
+    "data_type": "synthetic_demo",
+    "data_status": "Synthetic demonstration data",
+    "municipality": "Bengaluru Municipal Services (Demonstration)",
+    "version": "2.0-in",
+    "last_updated": "2026-09-01",
+    "source": "Bengaluru Municipal Corporation Licensing and Town Planning Dataset",
+    "disclaimer": "This is synthetic demonstration data for Indian municipal FAQ chatbot evaluation. It does not represent actual government policy, legal fees, or official BBMP rules."
+  },
+  "records": [
+    {
+      "id": "PERM001",
+      "permit_type": "Building Permit",
+      "aliases": ["building permit", "building plan approval", "construction permit", "sanction plan", "structural permit", "new building approval"],
+      "department": "Department of Town Planning & Building Inspection, Municipal Corporation",
+      "description": "Required for new structural construction, major additions, or load-bearing alterations to any residential, institutional, or commercial property within municipal limits.",
+      "required_documents": [
+        "Proof of property ownership (registered Sale Deed, Khata Certificate, and latest Property Tax paid receipt)",
+        "Architectural drawings and sanction plan signed by a registered municipal architect or engineer",
+        "Structural engineering stability certificate from a recognized structural engineer",
+        "Site plan showing boundary setbacks, FAR/FSI, and road widths as per Municipal Building Bye-laws",
+        "No Objection Certificate (NOC) from Fire & Emergency Services (for buildings above 15 meters)",
+        "Applicant government-issued identity proof (Aadhaar Card, PAN Card, or Passport)"
+      ],
+      "fee": "Base fee of ₹20,000 (approx. $250 demo rate) plus ₹40 per square meter of gross built-up floor area",
+      "processing_time": "15 to 20 working days",
+      "validity_period": "3 years from date of sanction",
+      "renewal_procedure": "Submit renewal application with licensed structural engineer progress inspection report at least 30 days before expiration. Renewal fee is ₹8,000 ($100).",
+      "submission_method": "Online via Municipal Citizen Portal (e-Plan Approval) or in person at Citizen Service Center, Counter 4."
+    },
+    {
+      "id": "PERM002",
+      "permit_type": "Commercial Trade License",
+      "aliases": ["trade permit", "trade license", "business license", "commercial license", "shop permit", "shop and establishment license"],
+      "department": "Department of Health & Commerce Licensing, Municipal Corporation",
+      "description": "Mandatory municipal license authorizing retail shops, commercial offices, restaurants, eateries, and manufacturing units to operate legally within municipal jurisdiction.",
+      "required_documents": [
+        "Applicant ID proof (Aadhaar Card, PAN Card, or Passport)",
+        "Commercial premises rental/lease agreement or property tax receipt",
+        "Business registration certificate (GST Registration, Partnership Deed, or Certificate of Incorporation)",
+        "Fire Department NOC (mandatory for commercial establishments exceeding 50 sq meters)",
+        "Food Safety (FSSAI) clearance certificate (mandatory for eateries, cafes, bakeries, and food vendors)"
+      ],
+      "fee": "Annual fee ranging from ₹12,000 ($150) for small retail shops under 30 sq meters to ₹45,000 ($600) for restaurants, supermarkets, and major commercial enterprises",
+      "processing_time": "7 to 10 working days",
+      "validity_period": "1 year (must be renewed annually before March 31)",
+      "renewal_procedure": "Online renewal through municipal portal submitting last year's license number, self-declaration of unchanged business operations, and payment of annual renewal fee.",
+      "submission_method": "Online via Municipal Citizen Portal or at Citizen Service Center, Counter 6."
+    },
+    {
+      "id": "PERM003",
+      "permit_type": "Public Event Permit",
+      "aliases": ["event permit", "public gathering permit", "festival permit", "rally permit", "concert permit", "pandal permission"],
+      "department": "Department of Public Safety and Community Gatherings, Municipal Corporation",
+      "description": "Required for organizing public religious festivals, pandals, outdoor concerts, melas, cultural processions, exhibitions, or sports events exceeding 100 participants.",
+      "required_documents": [
+        "Detailed event proposal specifying expected attendance, dates, and hours of operation",
+        "Venue layout, stage dimensions, and emergency evacuation plan",
+        "Police clearance and No-Objection Certificate (NOC) from local law enforcement and Traffic Police",
+        "Public liability insurance coverage policy certificate",
+        "Traffic management and parking layout plan approved by Traffic Police",
+        "Waste cleanup and Swachhata sanitation management contract agreement"
+      ],
+      "fee": "₹7,500 ($100) per event day for non-profit and community cultural events; ₹25,000 ($350) per event day for commercial ticketed events",
+      "processing_time": "5 to 7 working days (application must be submitted at least 15 days prior to event)",
+      "validity_period": "Specified duration of the approved event dates only",
+      "renewal_procedure": "Not renewable; separate applications required for each distinct event.",
+      "submission_method": "Submit in person at Municipal Headquarters, Public Safety Desk, 2nd Floor."
+    },
+    {
+      "id": "PERM004",
+      "permit_type": "Residential Renovation Permit",
+      "aliases": ["renovation permit", "remodeling permit", "interior work permit", "home alteration permit", "repair permission"],
+      "department": "Department of Town Planning & Building Inspection, Municipal Corporation",
+      "description": "Required for non-structural interior alterations, plumbing and electrical re-piping, roof tiling upgrades, compound wall modification, or facade repairs.",
+      "required_documents": [
+        "Latest Property Tax payment receipt for the current financial year",
+        "Detailed scope of renovation work from certified contractor or engineer",
+        "Residents Welfare Association (RWA) or Apartment Owners Association NOC (if applicable)",
+        "Contractor safety and debris disposal undertaking certificate"
+      ],
+      "fee": "Flat fee of ₹5,000 ($75) for minor interior alterations; ₹10,000 ($150) for extensive plumbing/electrical structural remodeling",
+      "processing_time": "3 to 5 working days",
+      "validity_period": "6 months from date of approval",
+      "renewal_procedure": "Single 3-month extension permitted upon payment of ₹3,000 ($40) extension fee.",
+      "submission_method": "Online instant e-permit portal or at Citizen Service Center, Counter 4."
+    },
+    {
+      "id": "PERM005",
+      "permit_type": "Street Vending Permit",
+      "aliases": ["vendor permit", "hawker permit", "street vendor license", "food cart permit", "tvc certificate"],
+      "department": "Town Vending Committee (TVC), Department of Commerce & Licensing",
+      "description": "Authorizes mobile food carts, tea kiosks, artisan stalls, and registered street hawkers to operate in designated municipal vending zones under PM SVANidhi framework.",
+      "required_documents": [
+        "Identity proof and residential address proof of vendor (Aadhaar Card or Voter ID)",
+        "Passport-size photographs (2)",
+        "Food hygiene and safety handler training certificate (for street food vendors only)",
+        "Vending cart dimension verification certificate (maximum permitted: 2m x 1.5m)"
+      ],
+      "fee": "₹3,500 ($50) per quarter (every 3 months)",
+      "processing_time": "5 to 7 working days",
+      "validity_period": "1 year, payable quarterly",
+      "renewal_procedure": "Quarterly stamp renewal at Citizen Service Center, Counter 6.",
+      "submission_method": "In person at Citizen Service Center, Counter 6."
+    }
+  ]
+}

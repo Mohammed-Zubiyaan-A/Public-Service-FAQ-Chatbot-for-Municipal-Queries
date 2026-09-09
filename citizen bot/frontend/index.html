@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Municipal Service Assistant - Conversational public service information chatbot for waste collection schedules, permit procedures, civic events, and live weather.">
+  <title>Municipal Service Assistant | Public Service FAQ Chatbot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-brand">
+        <div class="seal-icon" aria-hidden="true">🏛️</div>
+        <div>
+          <h1 class="header-title">Municipal Service Assistant</h1>
+          <p class="header-subtitle">Your digital assistant for public services</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="clear-chat-btn" class="btn-secondary" title="Reset conversation and start fresh" aria-label="Clear Conversation">
+          <span class="btn-icon" aria-hidden="true">↺</span>
+          <span class="btn-label">Clear Conversation</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Chat Window -->
+    <main class="chat-viewport">
+      <div id="messages-container" class="messages-container" role="log" aria-live="polite">
+        <!-- Welcome Card -->
+        <div class="welcome-card" id="welcome-card">
+          <div class="welcome-badge">Official Civic Information Desk</div>
+          <h2 class="welcome-heading">How can we assist your community today?</h2>
+          <p class="welcome-text">
+            Ask any question about waste collection schedules, building & trade permits, upcoming municipal events, citizen service centers, or local weather.
+          </p>
+
+          <div class="suggestions-label">Try asking one of these frequent queries:</div>
+          <div class="suggestions-grid">
+            <button class="suggestion-chip" data-query="When is waste collected in Zone A?">
+              <span class="chip-icon">🚛</span>
+              <span>When is waste collected in Zone A?</span>
+            </button>
+            <button class="suggestion-chip" data-query="What documents are required for a trade permit?">
+              <span class="chip-icon">📜</span>
+              <span>What documents are required for a trade permit?</span>
+            </button>
+            <button class="suggestion-chip" data-query="What events are happening this month?">
+              <span class="chip-icon">📅</span>
+              <span>What events are happening this month?</span>
+            </button>
+            <button class="suggestion-chip" data-query="What is the weather today?">
+              <span class="chip-icon">⛅</span>
+              <span>What is the weather today?</span>
+            </button>
+            <button class="suggestion-chip" data-query="What municipal services are available?">
+              <span class="chip-icon">🏢</span>
+              <span>What municipal services are available?</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Typing Indicator -->
+      <div id="typing-indicator" class="typing-indicator hidden" aria-live="polite" aria-label="Assistant is thinking">
+        <div class="typing-avatar">🏛️</div>
+        <div class="typing-bubble">
+          <span class="typing-label">Assistant is checking municipal records</span>
+          <div class="typing-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Chat Input Area -->
+    <footer class="app-footer">
+      <form id="chat-form" class="chat-form" novalidate>
+        <div class="input-wrapper">
+          <textarea
+            id="user-input"
+            class="chat-input"
+            rows="1"
+            placeholder="Ask about municipal schedules, permits, events, weather..."
+            aria-label="Message the municipal assistant"
+            maxlength="2000"
+            required
+          ></textarea>
+          <button id="send-btn" class="btn-send" type="submit" aria-label="Send message" disabled>
+            <svg class="send-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div class="disclaimer-text">
+        <span>Information grounded in demonstration municipal datasets. Not for emergency services.</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
